@@ -1,0 +1,28 @@
+{
+  "name": "uee-ws-server",
+  "version": "0.6.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wsserver": "node ./WsServer/index.js",
+    "start": "node ./index.mjs",
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellementul/uee-system.git"
+  },
+  "author": "Ellementul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellementul/uee-system/issues"
+  },
+  "homepage": "https://github.com/ellementul/uee-system#readme",
+  "dependencies": {
+    "localtunnel": "^2.0.2",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
