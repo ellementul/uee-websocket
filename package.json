@@ -1,6 +1,6 @@
 {
   "name": "@ellementul/uee-ws-server",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "localtunnel": "^2.0.2",
     "ws": "^8.11.0",
-    "zx": "^7.1.1"
+    "console-questions": "^1.1.1"
   },
   "devDependencies": {
     "jest": "^29.3.1"
