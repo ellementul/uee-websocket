@@ -1,11 +1,11 @@
 {
   "name": "@ellementul/uee-ws-server",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "wsserver": "node ./WsServer/index.js",
-    "start": "node ./index.mjs",
+    "start": "node ./index.js",
     "test": "node node_modules/jest/bin/jest.js"
   },
   "repository": {
