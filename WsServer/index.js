@@ -7,16 +7,12 @@ class WSServer extends WebSocketServer {
     this.port = port 
   }
 
-  async start(isLT = true) {
+  async start() {
     this.startServer()
 
-    if(isLT)
-      this.domain = await localtunnel({ port: this.port })
-    else {
-      this.domain = { 
-        url: `ws://localhost:${this.port}`,
-        close: () => {}
-      }
+    this.domain = { 
+      url: `ws://localhost:${this.port}`,
+      close: () => {}
     }
   }
 
