@@ -1,5 +1,4 @@
 const { WebSocketServer, OPEN } = require('ws')
-const localtunnel = require('localtunnel')
 
 class WSServer extends WebSocketServer {
   constructor(port) {
