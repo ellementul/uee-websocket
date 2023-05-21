@@ -17,6 +17,7 @@ class WSServer extends WebSocketServer {
 
   startServer() {
     this.on('connection', function connection(ws) {
+      console.log('Connected client. Count clients: ', this.clients.size)
       ws.on('message', (data, isBinary) => this.sendAll(data, isBinary));
     });
   }
