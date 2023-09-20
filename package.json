@@ -1,8 +1,8 @@
 {
   "name": "@ellementul/uee-ws-server",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "description": "",
-  "main": "index.js",
+  "main": "./WsServer/index.js",
   "scripts": {
     "wsserver": "node ./WsServer/index.js",
     "start": "node ./index.js",
